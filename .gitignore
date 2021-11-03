@@ -15,10 +15,11 @@ bin/
 #javascript
 .pnpm/
 .bin/
-node_modules/
+#node_modules/ Ignored for internals .gitignone 
 .eslintrc
 .npmrc
 babel.config.js
 *.spec.js
 LICENSE
 *.yaml
+javascript/*/.gitignore
