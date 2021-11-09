@@ -15,7 +15,7 @@ bin/
 #javascript
 .pnpm/
 .bin/
-#node_modules/ Ignored for internals .gitignone 
+node_modules/
 .eslintrc
 .npmrc
 babel.config.js
