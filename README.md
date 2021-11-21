@@ -31,7 +31,7 @@ We also place a high focus on quality. We want what we do to be good - to work w
 We try to pay fairly, respecting and considering both the time and value of our staff and the generosity of our donors. We act ethically as a company and as an employer, treating our team with respect and never asking something of them that we wouldn’t do ourselves, and not using techniques or technologies that we wouldn't want used on us.
 
 ## Source
-URL: https://exercism.org/about 
+URL: https://exercism.org/about </br>
 Last accessed on: Sunday, November 21, 2021
 
 ## About me 
