@@ -38,4 +38,3 @@ Last accessed on: Sunday, November 21, 2021
 ## About me 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/viperblack)](https://github.com/viperblack)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vimerson-silva-2b2bb338/)](https://www.linkedin.com/in/vimerson-silva-2b2bb338/)
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vimerson.silva@gmail.com)](mailto:vimerson.silva@gmail.com)
