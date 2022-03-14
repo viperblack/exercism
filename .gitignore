@@ -4,6 +4,7 @@
 .exercism/
 HELP.md
 HINTS.md
+README.md
 
 #C#
 *.csproj
