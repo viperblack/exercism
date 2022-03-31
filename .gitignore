@@ -4,8 +4,9 @@
 .exercism/
 HELP.md
 HINTS.md
+.prettierrc
 
-#C#
+#C
 *.csproj
 obj/
 bin/
