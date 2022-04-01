@@ -1,5 +1,3 @@
-using System;
-
 class BirdCount
 {
     private int[] birdsPerDay;
@@ -31,7 +29,6 @@ class BirdCount
             if (number == 0)
             {
                 return true;
-                break;
             }
         }
         return false;

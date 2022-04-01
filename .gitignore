@@ -26,3 +26,7 @@ LICENSE
 *.yaml
 javascript/*/.gitignore
 .pnpm-debug.log
+
+#Python
+*test.py
+__pycache__
