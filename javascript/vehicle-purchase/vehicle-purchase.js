@@ -11,7 +11,7 @@
  * @returns {boolean} whether a license is required
  */
 
-import { rest } from "./vehicle-purchase.spec";
+ const REST = ' is clearly the better choice.'
 
 export function needsLicense(kind) {
   if (kind === "car" || kind === "truck") {
