@@ -33,7 +33,7 @@ export function needsLicense(kind) {
 export function chooseVehicle(option1, option2) {
   var options = [option1, option2];
   options.sort();
-  return options[0] + rest;
+  return options[0] + REST;
 }
 
 /**
