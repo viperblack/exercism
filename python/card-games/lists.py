@@ -53,11 +53,11 @@ def approx_average_is_average(hand):
     :return: bool - does one of the approximate averages equal the `true average`?
     """
     median_index = int((len(hand) - 1) / 2)
+    first_last = (hand[0]+ hand[-1])/2
 
-    if card_average(hand) == hand[median_index]:
-        return True
-    # Assertion error registered on issue #3049 https://github.com/exercism/python/issues/3049
-    if hand == [2, 3, 4, 8, 8]:
+#Assertion is median OR first + last index values. Not exists
+# issue https://github.com/exercism/python/issues/3049
+    if card_average(hand) in [hand[median_index], first_last]:
         return True
     return False
 
