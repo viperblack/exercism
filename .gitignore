@@ -12,7 +12,7 @@ Unit_tests
 obj/
 bin/
 .editorconfig
-*Tests.cs
+#*Tests.cs
 
 #javascript
 .pnpm/
@@ -21,12 +21,12 @@ node_modules/
 .eslintrc
 .npmrc
 babel.config.js
-*.spec.js
+#*.spec.js
 LICENSE
 *.yaml
 javascript/*/.gitignore
 .pnpm-debug.log
 
 #Python
-*test.py
+#*test.py
 __pycache__
