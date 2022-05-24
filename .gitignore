@@ -21,6 +21,7 @@ node_modules/
 .eslintrc
 .npmrc
 babel.config.js
+*.ts
 #*.spec.js
 LICENSE
 *.yaml
