@@ -10,7 +10,7 @@ abstract class Character
 
     public abstract int DamagePoints(Character target);
 
-    public virtual bool GetVulnerable()
+    public virtual bool Vulnerable()
     {
         return false;
     }
@@ -29,7 +29,7 @@ class Warrior : Character
 
     public override int DamagePoints(Character target)
     {
-        if (target.GetVulnerable())
+        if (target.Vulnerable())
         {
             return 10;
         }
@@ -60,11 +60,11 @@ class Wizard : Character
         this.spell = true;
     }
 
-    public override bool GetVulnerable()
+    public override bool Vulnerable()
     {
         if (this.spell)
         {
-            return base.GetVulnerable();
+            return base.Vulnerable();
         }
         return true;
     }
