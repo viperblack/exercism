@@ -48,8 +48,10 @@ export function addSecretIngredient (friendsList, myList) {
 
 export function scaleRecipe (recipe, scale = 2) {
   const scaledRecipe = {}
+
   for (const key in recipe) {
     scaledRecipe[key] = recipe[key] * (scale / 2)
   }
+
   return scaledRecipe
 }
