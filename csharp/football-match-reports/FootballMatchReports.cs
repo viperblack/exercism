@@ -35,7 +35,7 @@ public static class PlayAnalyzer
             case int:
                 return $"There are {report} supporters at the match.";
             case string:
-                return report.ToString();
+                return report.ToString()!;
              case Injury injury:
                 return $"Oh no! {injury.GetDescription()} Medics are on the field.";
             case Foul foul: 
