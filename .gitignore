@@ -36,6 +36,7 @@ __pycache__
 #Elixir
 # The directory Mix will write compiled artifacts to.
 /_build/
+.credo.exs
 
 # If you run "mix test --cover", coverage assets end up here.
 /cover/
