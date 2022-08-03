@@ -54,12 +54,9 @@ def approx_average_is_average(hand):
     """
     median_index = int((len(hand) - 1) / 2)
     first_last = (hand[0]+ hand[-1])/2
-
 #Assertion is median OR first + last index values. Not exists
 # issue https://github.com/exercism/python/issues/3049
-    if card_average(hand) in [hand[median_index], first_last]:
-        return True
-    return False
+    return card_average(hand) in [hand[median_index], first_last]
 
 
 def average_even_is_average_odd(hand):
@@ -70,18 +67,12 @@ def average_even_is_average_odd(hand):
     """
     even_list = []
     odd_list = []
-
     for index, _ in enumerate(hand):
         if index % 2 == 0:
             even_list.append(hand[index])
         else:
             odd_list.append(hand[index])
-
-    if card_average(even_list) == card_average(
-        odd_list
-    ):
-        return True
-    return False
+    return card_average(even_list) == card_average(odd_list)
 
 
 def maybe_double_last(hand):
