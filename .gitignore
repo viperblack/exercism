@@ -15,6 +15,9 @@ bin/
 .editorconfig
 #*Tests.cs
 
+#Java
+.gradle
+build
 #javascript
 .pnpm/
 .bin/
