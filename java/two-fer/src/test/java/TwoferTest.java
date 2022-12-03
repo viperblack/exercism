@@ -26,8 +26,8 @@ public class TwoferTest {
                 .isEqualTo("One for Alice, one for me.");
     }
 
-    //@Ignore("Remove to run test")
-    @Test
+    @Ignore("Remove to run test")
+    //@Test
     public void anotherNameGiven() {
         assertThat(twofer.twofer("Bob"))
                 .isEqualTo("One for Bob, one for me.");
